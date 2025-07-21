@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # React + TypeScript + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
@@ -67,3 +68,7 @@ export default tseslint.config([
   },
 ])
 ```
+=======
+# hrone-json-schema-builder
+JSON Schema Builder, with dynamic fields, nested forms, and real-time JSON preview using React, shadcn-ui, and react-hook-form.
+>>>>>>> f4b0303a49f19aac079e67490b55690d2c4bd906
