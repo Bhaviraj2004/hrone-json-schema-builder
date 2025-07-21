@@ -1,5 +1,3 @@
-// src/components/builder/FieldTypeSelect.tsx
-
 import React from "react";
 import { FieldType } from "@/types/schema";
 import {

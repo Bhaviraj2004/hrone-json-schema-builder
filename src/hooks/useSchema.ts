@@ -25,7 +25,6 @@ export function useSchema(initialFields: SchemaField[] = []) {
   return { fields, setFields, addField, updateField, removeField };
 }
 
-// Helper Functions
 function addFieldToParent(tree: SchemaField[], parentId: string, newField: SchemaField): SchemaField[] {
   return tree.map(field => {
     if (field.id === parentId && field.type === "nested") {

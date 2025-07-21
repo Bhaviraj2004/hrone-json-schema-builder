@@ -26,7 +26,6 @@ const SchemaBuilder: React.FC = () => {
   return (
     <div>
       <div className="mx-auto p-6 flex gap-8">
-        {/* Left: Field Builder */}
         <div className="flex-1 rounded-2xl p-6 overflow-auto">
           {renderFields(fields)}
           <Button className="mb-4 w-full bg-blue-900 cursor-pointer" onClick={() => addField()}>Add Field</Button>
